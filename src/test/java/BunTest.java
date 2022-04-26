@@ -18,14 +18,14 @@ public class BunTest {
 
     //Проверяется метод getName класса Bun
     @Test
-    public void testGetName() {
+    public void testBunGetName() {
         createBunObjectsBeforeTest();
         Assert.assertEquals(bunNameForTest, bun.getName());
     }
 
     //Проверяется метод getPrice класса Bun
     @Test
-    public void testGetPrice() {
+    public void testBunGetPrice() {
         createBunObjectsBeforeTest();
         Assert.assertEquals(bunPriceForTest, bun.getPrice(), 0.0f);
     }
